@@ -1289,7 +1289,22 @@ pre[class*="language-"] {
 	    margin-left: 250px; /* 与侧边栏宽度+间距相匹配 */
             padding: 0 50px;
         }
-    </style>
+.content {
+            line-height: 32px !important; /* 设置段落的行间距 */
+}
+.content a {
+    text-decoration: none;     /* 去掉下划线 */
+    color: #003366;               /* 链接文字颜色 */
+}
+
+.content a:hover {
+    color: #2E4D4D;            /* 悬停时颜色为暗绿色 */
+}
+.content ul.no-margin {
+            padding-left: 0; /* 移除左侧填充 */
+}
+</style>
+	
 </head>
 <body>
  <div class="sidebar">
@@ -1375,5 +1390,6 @@ pre[class*="language-"] {
 </article>
 </body>
 </html>
+
 
 
